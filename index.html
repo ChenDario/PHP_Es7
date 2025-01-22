@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Script JavaScript-->
+    <script src="js/script.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PHP_Es7 Gioco del mastermind </title>
+</head>
+<body>
+    <div class="title">
+        <h1>Mastermind Game</h1>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <select onchange="updateImage(this, 'img2')">
+                        <option value="images/bianco(1).gif"> Bianco </option>
+                        <option value="images/blu.gif"> Blu </option>
+                        <option value="images/giallo.gif"> Giallo </option>
+                        <option value="images/nero.gif"> Nero </option>
+                        <option value="images/rosso(1).gif"> Rosso </option>
+                        <option value="images/verde.gif"> Verde </option>
+                    </select>
+                    <br>
+                    <img id="img2" src="" alt="Nessuna immagine">
+                </td>
+                <td>
+                    <select onchange="updateImage(this, 'img3')">
+                        <option value="">Seleziona immagine</option>
+                        <option value="image1.jpg">Immagine 1</option>
+                        <option value="image2.jpg">Immagine 2</option>
+                        <option value="image3.jpg">Immagine 3</option>
+                    </select>
+                    <br>
+                    <img id="img3" src="" alt="Nessuna immagine">
+                </td>
+                <td>
+                    <select onchange="updateImage(this, 'img4')">
+                        <option value="">Seleziona immagine</option>
+                        <option value="image1.jpg">Immagine 1</option>
+                        <option value="image2.jpg">Immagine 2</option>
+                        <option value="image3.jpg">Immagine 3</option>
+                    </select>
+                    <br>
+                    <img id="img4" src="" alt="Nessuna immagine">
+                </td>
+                <td>
+                    <select onchange="updateImage(this, 'img5')">
+                        <option value="">Seleziona immagine</option>
+                        <option value="image1.jpg">Immagine 1</option>
+                        <option value="image2.jpg">Immagine 2</option>
+                        <option value="image3.jpg">Immagine 3</option>
+                    </select>
+                    <br>
+                    <img id="img5" src="" alt="Nessuna immagine">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
