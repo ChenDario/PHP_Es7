@@ -2,11 +2,17 @@
     text-align: center;
 }
 
+.game{
+    width: 75%;
+    margin: auto;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
 }
+
 th, td {
     border: 1px solid black;
     padding: 10px;
@@ -16,43 +22,36 @@ img {
     max-height: 100px;
 }
 
-/* Stile base per il dropdown */
 select {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid #ccc;
-    transition: background-color 0.3s ease; /* Transizione al passaggio del mouse */
+    transition: background-color 0.3s ease;
 }
 
-/* Effetto hover per cambiare colore di sfondo */
 select:hover {
     background-color: #f0f0f0;
 }
 
-/* Modifica del colore di sfondo al focus */
 select:focus {
     background-color: #e0e0e0;
     outline: none;
 }
 
-/* Per l'hover anche sui menù in base a classe specifica */
 select:hover option {
     background-color: #f5f5f5;
 }
 
-/* Optional: per il focus sui singoli select per rendere il look migliore */
 select:focus option {
     background-color: #dcdcdc;
 }
 
-/* Nascondi il select */
 .hidden-select {
     display: none;
 }
 
-/* Simula un pulsante personalizzato */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -70,12 +69,10 @@ select:focus option {
     transition: background-color 0.3s ease;
 }
 
-/* Mostra l'input al passaggio del mouse */
 .dropdown:hover:before {
     background-color: #d0d0d0;
 }
 
-/* Aggiungi una lista a discesa */
 .dropdown:hover select {
     display: block;
     position: absolute;
@@ -87,7 +84,6 @@ select:focus option {
     z-index: 100;
 }
 
-/* Estilizza il select per la visualizzazione */
 .dropdown select {
     display: none;
     width: 100%;
